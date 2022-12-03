@@ -3,6 +3,8 @@ import './PropertyDetails.css';
 import PropImg from '../assets/PropertyImage.jpg';
 
 class PropertyDetails extends React.Component {
+
+
     render() {
         return (
             <div class="PropertyDetails">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './PropertyCard.css';
 import PropImg from '../assets/PropertyImage.jpg';
 
@@ -8,7 +9,7 @@ class PropertyCard extends React.Component {
         return (
             <div class="PropertyCard">
                 <div class="PropertyImage">
-                    <img src={PropImg} />
+                    <Link to={{ pathname: "/property", state: "Here we go!" }}><img src={PropImg} /></Link>
                 </div>
                 <div class="Data">
                     <div class="PropertyName">{this.props.PropertyName}</div>
