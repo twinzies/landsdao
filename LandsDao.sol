@@ -80,7 +80,9 @@ contract LandsDAO {
 
     function getFractionalInfo() public view {}
 
-    function getAllAvailableProperty() public view {}
+    function getAllProperties() public view {}
+
+    function getAllAvailable() public view {}
 
     function updateFractionalprice() public {}
 
