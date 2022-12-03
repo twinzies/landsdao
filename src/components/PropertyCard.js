@@ -21,3 +21,4 @@ class PropertyCard extends React.Component {
 }
 
 export default PropertyCard;
+
