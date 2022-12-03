@@ -4,7 +4,7 @@
     height: 50px;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    padding: 20px;
 }
 
 .Space {
@@ -12,10 +12,11 @@
 }
 
 .CompanyName {
-    font-family: 'Gotham';
+    padding: 10px;
+    font-family: 'Courier New';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 17px;
 
     /* White */

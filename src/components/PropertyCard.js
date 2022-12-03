@@ -11,8 +11,8 @@ class PropertyCard extends React.Component {
                     <img src={PropImg} />
                 </div>
                 <div class="Data">
-                    <div class="PropertyName">PropertyName</div>
-                    <div class="PropertyCost">0.00 ETH</div>
+                    <div class="PropertyName">{this.props.PropertyName}</div>
+                    <div class="PropertyCost">{this.props.PropertyPrice} ETH</div>
                 </div>
             </div>
         );

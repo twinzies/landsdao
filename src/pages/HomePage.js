@@ -1,5 +1,5 @@
 import React from "react";
-import PropertyCard from '../components/PropertyCard';
+import PropertyList from '../components/PropertyList';
 import NavBar from '../components/NavBar';
 import './HomePage.css';
 
@@ -9,7 +9,7 @@ class HomePage extends React.Component {
             <div class="HomePage">
                 <NavBar></NavBar>
                 <div class="Banner"></div>
-                <PropertyCard></PropertyCard>
+                <PropertyList></PropertyList>
             </div>
         );
     }
