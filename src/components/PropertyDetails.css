@@ -1,0 +1,55 @@
+.PropertyDetails {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.PropertyImage {
+    max-height: 400px;
+    max-width: 700px;
+}
+
+.PropertyImage img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.Space1 {
+    width: 100px;
+    height: 100px;
+    /* background: aliceblue; */
+}
+
+.PropertyData {
+    height: 400px;
+    width: 400px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.PropertyName {
+    font-size: 28px;
+}
+
+.PropertyPrice {
+    font-size: 20px;
+}
+
+
+.Button {
+    padding: 10px;
+    border-radius: 2px;
+    border: 2px solid;
+    border-color: aliceblue;
+    text-align: center;
+
+
+}
+
+a {
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+}

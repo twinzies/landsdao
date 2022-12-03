@@ -26,7 +26,7 @@ class PropertyList extends React.Component {
                     {/* {this.generatePropertyCards(10)} */}
                     {
                         this.state.PropertyCardList.map((PropertyData) => {
-                            return <PropertyCard PropertyName={PropertyData.PropertyName} PropertyPrice={PropertyData.PropertyPrice} ></PropertyCard>
+                            return <PropertyCard PropertyName={"Property " + PropertyData.PropertyName} PropertyPrice={PropertyData.PropertyPrice} ></PropertyCard>
                         })
                     }
                 </div>

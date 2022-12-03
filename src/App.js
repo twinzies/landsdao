@@ -1,9 +1,11 @@
-import HomePage from './pages/HomePage';
+// import HomePage from './pages/HomePage';
 import './App.css';
+import PropertyPage from './pages/PropertyPage';
 
 function App() {
   return (
-    <HomePage />
+    // <HomePage />
+    <PropertyPage />
   );
 }
 
