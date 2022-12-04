@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with LandsDAO
+
+LandsDAO is a web3 solution that enables fractional property investments for the next generation of property and home owners.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
