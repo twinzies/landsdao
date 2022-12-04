@@ -2,6 +2,8 @@
 
 LandsDAO is a web3 solution that enables fractional property investments for the next generation of property and home owners.
 
+Contract deployed on mumbai testnet: https://mumbai.polygonscan.com/address/0x4A6CE4a92Df6f1c5Aad6447D578802280Ccb5A83
+
 ![landsdao.png](landsdao.png)
 
 ## Available Scripts
