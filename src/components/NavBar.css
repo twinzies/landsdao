@@ -1,0 +1,77 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Space {
+    width: 100%;
+}
+
+.CompanyName {
+    padding: 10px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 17px;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.Connect {
+
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 30px;
+    gap: 10px;
+    border: #DA18A3;
+    border-width: 2px;
+    border-style: solid;
+
+
+    border-radius: 10px;
+}
+
+.Connect h3 {
+    /* Button */
+
+
+    width: 61px;
+    height: 21px;
+    text-decoration: none;
+    /* Button */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    /* Red Violet */
+
+    color: #DA18A3;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

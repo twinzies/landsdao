@@ -1,0 +1,89 @@
+.PropertyCard {
+    background: #2A2D3A;
+    border-radius: 20px;
+    height: 319px;
+    width: 233px;
+    color: #FFFFFF;
+    padding-left: 11px;
+    padding-top: 11px;
+    margin: 10px;
+}
+
+.PropertyImage {
+    /* border-radius: 20px; */
+    height: 230px;
+    width: 210px;
+    background: #2A2D3A;
+
+    display: flex;
+    justify-content: center;
+}
+
+.PropertyImage img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    background: #2A2D3A;
+
+}
+
+.Data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background: #2A2D3A;
+
+    padding-top: 15px;
+    gap: 5px;
+
+    width: 210px;
+    height: 44px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.PropertyName {
+    width: 173px;
+    height: 21px;
+    background: #2A2D3A;
+
+
+    /* font-family: 'Poppins';
+    font-style: normal; */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.PropertyCost {
+    width: 206px;
+    height: 18px;
+    background: #2A2D3A;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
