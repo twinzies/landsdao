@@ -2,7 +2,7 @@
 
 LandsDAO is a web3 solution that enables fractional property investments for the next generation of property and home owners.
 
-![landsdao.jpg](landsdao.png)
+![landsdao.png](landsdao.png)
 
 ## Available Scripts
 
